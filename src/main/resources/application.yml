@@ -1,0 +1,19 @@
+server:
+  port: 7070
+camel:
+  springboot:
+    name: ServicesRest
+    main-run-controller: true
+management:
+  port: 7071
+endpoints:
+  enabled: false
+  health:
+    enabled: true
+quickstart:
+  generateOrderPeriod: 10s
+  processOrderPeriod: 30s
+baeldung:
+  api:
+    path: '/camel'
+
